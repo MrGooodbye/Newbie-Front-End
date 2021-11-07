@@ -1,0 +1,93 @@
+body {
+    font-family: Tahoma;
+    font-size: 20px;
+    width: 1200px; 
+    margin: 0px auto;
+    background-image: url(https://cdn3.f-cdn.com/contestentries/1489974/18545046/5cba2aba229c4_thumb900.jpg);
+    background-size: auto;
+}
+
+#Logo img{
+    width: 250px;
+    float: left;
+    padding: 0 300 0 ;
+    height: 202px;
+}
+
+#Slogan{
+    background: silver;
+}
+
+#Slogan p{
+    float: left;
+    padding: 0px 3px 0px 50px;
+    font-family: 'Goldman', cursive;
+    font-size: 35px;
+    
+}
+
+#Menu {
+    background: silver;
+    height: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    width: 1200px;
+    float: left;
+}
+
+#Menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Menu ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+#Menu ul li a {
+    text-decoration: none;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color: black;
+    padding: 0px 104px 0px 104px;
+    background: silver;
+    border-right: 1px solid #f1f1f1;
+}
+
+#Menu ul li a:hover {
+    background: deeppink;
+    color: #333;
+} 
+
+#Menu ul li > .sub-menu{
+    display: none;
+    position: absolute;
+}
+
+#Menu ul li:hover .sub-menu{
+    display: block;
+}
+
+#FreeBuildimg img{
+    width: 300px;
+    height: 320px;
+    float: left;
+    padding: 0px 50px 0px 50px;
+}
+
+
+#Footer {
+    width: 1200px;
+    height: 173px;
+    clear: left;
+}
+
+#Footer ul li{
+    list-style: none;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
